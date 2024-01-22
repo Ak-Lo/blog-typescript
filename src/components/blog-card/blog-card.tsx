@@ -1,5 +1,8 @@
 // import React from 'react'
+import { useNavigate } from "react-router-dom";
+
 import "./blog-card.css"
+
 
 type TCard = {
     id: number
@@ -11,8 +14,14 @@ type TCard = {
 }
 
 const BlogCard = (props:TCard) => {
+  // let navigate = useNavigate();
+
+  // function redirectToReadFullArticle(){
+  //   navigate('/path')
+  // }
+
   return (
-    <div className='card__container'>
+    <div className='card__container' onClick={() => console.log("first")}>
         <img src={props.image}/>
         <div className='card__body'>
             <h4>{props.name}</h4>

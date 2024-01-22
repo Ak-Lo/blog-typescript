@@ -9,7 +9,7 @@ export const blogTabs = [
 export const blogArticlesData = [
     {
         id: 1,
-        image: "../images/register_bg.png",
+        image: "../../images/projectsImage2.jpg",
         title: "როგორ გავარემონტოთ საკამი",
         category: "BUILDING",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
@@ -17,7 +17,7 @@ export const blogArticlesData = [
     },
     {
         id: 2,
-        image: "../images/bottom-banner.jpg",
+        image: "../../images/projectsImage3.jpg",
         title: "როგორ გავარემონტოთ საკამი",
         category: "EXTERIOR",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
@@ -25,7 +25,7 @@ export const blogArticlesData = [
     },
     {
         id: 3,
-        image: "../images/register_bg.png",
+        image: "../../images/projectsImage4.jpg",
         title: "როგორ გავარემონტოთ საკამი",
         category: "BUILDING",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
@@ -33,7 +33,7 @@ export const blogArticlesData = [
     },
     {
         id: 4,
-        image: "../images/bottom-banner.jpg",
+        image: "../../images/projectsImage6.jpg",
         title: "როგორ გავარემონტოთ საკამი",
         category: "INTERIOR",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
@@ -41,7 +41,7 @@ export const blogArticlesData = [
     },
     {
         id: 5,
-        image: "../images/register_bg.png",
+        image: "../../images/projectsImage7.jpg",
         title: "როგორ გავარემონტოთ საკამი",
         category: "INTERIOR",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
@@ -49,7 +49,7 @@ export const blogArticlesData = [
     },
     {
         id: 6,
-        image: "../images/bottom-banner.jpg",
+        image: "../../images/projectsImage8.jpg",
         title: "როგორ გავარემონტოთ საკამი",
         category: "DESIGN",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",

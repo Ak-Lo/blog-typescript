@@ -61,7 +61,7 @@
 
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: orangered;
+    color: #3989f4;
     background-color: #fff;
     border-color: none;
 }
@@ -72,9 +72,10 @@
     border-bottom: none;
     list-style-type: none;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-tabs .nav-link:hover{
-    color: orangered
-    
+    color: #3989f4;    
 }

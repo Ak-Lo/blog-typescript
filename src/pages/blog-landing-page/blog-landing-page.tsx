@@ -1,6 +1,6 @@
 import { useState } from "react";
-import BlogTabs from "../components/blog-tabs/blog-tabs"
-import BlogArticles from "../components/blog-articles/blog-articles";
+import BlogTabs from "../../components/blog-tabs/blog-tabs"
+import BlogArticles from "../../components/blog-articles/blog-articles";
 
 function BlogLandingPage(){
   const [selectedTab, setSelectedTab] = useState(['ALL CATEGORIES']);
