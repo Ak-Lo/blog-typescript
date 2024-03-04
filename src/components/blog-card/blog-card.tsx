@@ -14,14 +14,14 @@ type TCard = {
 }
 
 const BlogCard = (props:TCard) => {
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
 
-  // function redirectToReadFullArticle(){
-  //   navigate('/path')
-  // }
+  function redirectToReadFullArticle(){
+    navigate('/read-full-article')
+  }
 
   return (
-    <div className='card__container' onClick={() => console.log("first")}>
+    <div className='card__container' onClick={() => redirectToReadFullArticle()}>
         <img src={props.image}/>
         <div className='card__body'>
             <h4>{props.name}</h4>
