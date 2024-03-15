@@ -94,12 +94,9 @@ const commentsAndReplies = {
                                     <span className="reply__button"><img className={showRepliesOnComment ? "expand__replies__arrow__open" : "expand__replies__arrow__close"} src="../images/gallery/down-arrow.png" />{Children.length} კომენტარი</span>
                                 </div> : ""}
                         </div>                                   */}
-
     
-                    {children ? children.map((item) => ( 
-                        <>
-                            <TraverseReplies {...item} />  
-                        </>                
+                    {children ? children.map((item) => (                         
+                            <TraverseReplies key={item.id} {...item} />                                      
                     )) : ""}
     
                 </div>
@@ -130,7 +127,7 @@ function BlogComments ({ /*articleId, mustUpdateComments, SetMustUpdateComments*
     return (
         <div className="blog__topics"> 
             {commentsAndReplies.children.map((item) => (
-                <TraverseReplies {...item}/>
+                <TraverseReplies key={item.id} {...item}/>
             ))}        
         </div>
     )
