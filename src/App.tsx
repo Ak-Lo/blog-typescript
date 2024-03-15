@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<BlogLandingPage />} />
-        <Route path="/read-full-article" element={<ReadFullArticle />} />
+        <Route path="/read-full-article/:id" element={<ReadFullArticle />} />
       </Routes>
     </BrowserRouter>
   )

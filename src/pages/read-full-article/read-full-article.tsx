@@ -1,19 +1,41 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './read-full-article.css'
 import { useDispatch, useSelector } from "react-redux";
 import type { RootState, AppDispatch } from '../../store/store'
 import { changeId } from "../../features/comments/commentsSlice";
 import BlogComments from "../../components/blog-comments/blog-comments";
+import { useParams } from "react-router-dom";
+import { blogArticlesData } from "../../assets/json-data";
+
+type TArticle = {
+    id: number
+    image: string
+    title: string
+    category: string
+    description: string
+    text: string
+    publishDate: string
+}
+
+const initialState = {
+    id: 0,
+    image: '',
+    title: '', 
+    category: '',
+    description: '',
+    text: '',
+    publishDate: ''
+}
 
 function ReadFullArticle(){
+    const { id } = useParams();
 
-    // const [cookies, removeCookie] = useCookies(["ContactiAccessToken"]);
-    const [shareMenuVisible, setShareMenuVisible] = useState(false);
-    const [articleDetails, setArticleDetails] = useState({});
+    const [articleDetails, setArticleDetails] = useState<TArticle>(initialState);
 
     const comments = useSelector((state: RootState) => state.comments);
 
     const dispatch = useDispatch<AppDispatch>();
+
     // let { id } = useParams();
 
     // useEffect(() => {
@@ -62,11 +84,26 @@ function ReadFullArticle(){
             
     //     }
     // }
+useEffect(()=> {
+    function getArticleText() {
+        // Using type narrowing approach
+        if (typeof(id) === "string"){
+            const fullArticleDetail = blogArticlesData.filter(articleData => articleData.id === parseInt(id));
+            setArticleDetails(fullArticleDetail[0])
+        }
+
+        // // using as keyword approach
+        // const articleId = blogArticlesData.filter(article => article.id === parseInt(id as string));
+    }
+    getArticleText()
+},[])
+    
 
     return (
         <div className="read-full-article">
             {<div className="article__text">
                 <div className="article__name">{comments.id}</div> 
+                <div className="article__name">{id}</div> 
                 <button onClick={() => dispatch(changeId())}>change id</button>
                 <div className="blog__info__panel">
                     <div style={{display:'flex', alignItems:'center'}}>
@@ -90,10 +127,10 @@ function ReadFullArticle(){
                             <div className="ml-3"><i className="bi bi-linkedin mr-2"></i>გაზიარება LinkedIn-ზე</div>
                         </div> */}
                     </div>
-                </div>
+                </div> 
                 <p className="article__text">                
-                    {'Article Content'}
-                </p> 
+                    {articleDetails.text}
+                </p>
                 {/* <LeaveCommentTextbox articleId={id} SetMustUpdateComments={SetMustUpdateComments}/>                */}
             </div>}
             <BlogComments /> 

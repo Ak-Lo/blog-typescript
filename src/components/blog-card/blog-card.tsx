@@ -17,7 +17,7 @@ const BlogCard = (props:TCard) => {
   let navigate = useNavigate();
 
   function redirectToReadFullArticle(){
-    navigate('/read-full-article')
+    navigate(`/read-full-article/${props.id}`)
   }
 
   return (

@@ -13,6 +13,7 @@ export const blogArticlesData = [
         title: "როგორ გავარემონტოთ საკამი",
         category: "BUILDING",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aspernatur voluptatibus totam fuga! Sint, odio dicta earum, error fugiat officia incidunt ut iure consequatur ipsam dolore. Ipsum suscipit exercitationem vitae?",
         publishDate: "27 წუთს წინ"
     },
     {
@@ -21,6 +22,7 @@ export const blogArticlesData = [
         title: "როგორ გავარემონტოთ საკამი",
         category: "EXTERIOR",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aspernatur voluptatibus totam fuga! Sint, odio dicta earum, error fugiat officia incidunt ut iure consequatur ipsam dolore. Ipsum suscipit exercitationem vitae?",
         publishDate: "27 წუთს წინ"
     },
     {
@@ -29,6 +31,7 @@ export const blogArticlesData = [
         title: "როგორ გავარემონტოთ საკამი",
         category: "BUILDING",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aspernatur voluptatibus totam fuga! Sint, odio dicta earum, error fugiat officia incidunt ut iure consequatur ipsam dolore. Ipsum suscipit exercitationem vitae?",
         publishDate: "27 წუთს წინ"
     },
     {
@@ -37,6 +40,7 @@ export const blogArticlesData = [
         title: "როგორ გავარემონტოთ საკამი",
         category: "INTERIOR",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aspernatur voluptatibus totam fuga! Sint, odio dicta earum, error fugiat officia incidunt ut iure consequatur ipsam dolore. Ipsum suscipit exercitationem vitae?",
         publishDate: "27 წუთს წინ"
     },
     {
@@ -45,6 +49,7 @@ export const blogArticlesData = [
         title: "როგორ გავარემონტოთ საკამი",
         category: "INTERIOR",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aspernatur voluptatibus totam fuga! Sint, odio dicta earum, error fugiat officia incidunt ut iure consequatur ipsam dolore. Ipsum suscipit exercitationem vitae?",
         publishDate: "27 წუთს წინ"
     },
     {
@@ -53,6 +58,7 @@ export const blogArticlesData = [
         title: "როგორ გავარემონტოთ საკამი",
         category: "DESIGN",
         description: "ჩვენი პლატფორმის მიზანია ნდობასთან და ხარისხთან დაკავშირებული პრობლემების გადაჭრა, რომელიც დიდი გამოწვევაა მომსახურების სფეროში.",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aspernatur voluptatibus totam fuga! Sint, odio dicta earum, error fugiat officia incidunt ut iure consequatur ipsam dolore. Ipsum suscipit exercitationem vitae?",
         publishDate: "27 წუთს წინ"
     }
 ]
